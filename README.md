@@ -17,4 +17,5 @@
 # **추가적으로 rviz2도 실행하여 연동에 성공한 모습**
 ![Image](https://github.com/user-attachments/assets/617f15ea-d44a-465d-85ee-144c6356b654)
 
-+동영상 따로 첨부
+# **최종 동작 모습**
+https://github.com/user-attachments/assets/be84e496-665a-4962-ac85-fcb81e43c1f2

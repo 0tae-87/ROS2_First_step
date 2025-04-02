@@ -1,0 +1,44 @@
+[0.599s] Invoking command in '/home/youngtae/ws/ros_ws/build/urdf_tutorial': PYTHONPATH=/home/youngtae/ws/ros_ws/build/urdf_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youngtae/ws/ros_ws/install/urdf_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/youngtae/ws/ros_ws/build/urdf_tutorial/build
+[0.764s] running develop
+[0.863s] Removing /home/youngtae/ws/ros_ws/install/urdf_tutorial/lib/python3.10/site-packages/urdf-tutorial.egg-link (link to .)
+[0.885s] Invoked command in '/home/youngtae/ws/ros_ws/build/urdf_tutorial' returned '0': PYTHONPATH=/home/youngtae/ws/ros_ws/build/urdf_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youngtae/ws/ros_ws/install/urdf_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/youngtae/ws/ros_ws/build/urdf_tutorial/build
+[0.887s] Invoking command in '/home/youngtae/ws/ros_ws/src/urdf_tutorial': PYTHONPATH=/home/youngtae/ws/ros_ws/build/urdf_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youngtae/ws/ros_ws/install/urdf_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/urdf_tutorial build --build-base /home/youngtae/ws/ros_ws/build/urdf_tutorial/build install --record /home/youngtae/ws/ros_ws/build/urdf_tutorial/install.log --single-version-externally-managed install_data --force
+[1.037s] running egg_info
+[1.038s] writing ../../build/urdf_tutorial/urdf_tutorial.egg-info/PKG-INFO
+[1.038s] writing dependency_links to ../../build/urdf_tutorial/urdf_tutorial.egg-info/dependency_links.txt
+[1.038s] writing entry points to ../../build/urdf_tutorial/urdf_tutorial.egg-info/entry_points.txt
+[1.038s] writing requirements to ../../build/urdf_tutorial/urdf_tutorial.egg-info/requires.txt
+[1.038s] writing top-level names to ../../build/urdf_tutorial/urdf_tutorial.egg-info/top_level.txt
+[1.039s] reading manifest file '../../build/urdf_tutorial/urdf_tutorial.egg-info/SOURCES.txt'
+[1.040s] writing manifest file '../../build/urdf_tutorial/urdf_tutorial.egg-info/SOURCES.txt'
+[1.040s] running build
+[1.040s] running build_py
+[1.040s] running install
+[1.041s] running install_lib
+[1.041s] creating /home/youngtae/ws/ros_ws/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial
+[1.041s] copying /home/youngtae/ws/ros_ws/build/urdf_tutorial/build/lib/urdf_tutorial/__init__.py -> /home/youngtae/ws/ros_ws/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial
+[1.042s] byte-compiling /home/youngtae/ws/ros_ws/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial/__init__.py to __init__.cpython-310.pyc
+[1.042s] running install_data
+[1.042s] copying resource/urdf_tutorial -> /home/youngtae/ws/ros_ws/install/urdf_tutorial/share/ament_index/resource_index/packages
+[1.042s] copying package.xml -> /home/youngtae/ws/ros_ws/install/urdf_tutorial/share/urdf_tutorial
+[1.042s] copying launch/robot_4.launch.py -> /home/youngtae/ws/ros_ws/install/urdf_tutorial/share/urdf_tutorial/launch
+[1.042s] copying launch/sim.launch.py -> /home/youngtae/ws/ros_ws/install/urdf_tutorial/share/urdf_tutorial/launch
+[1.042s] copying launch/robot_2.launch.py -> /home/youngtae/ws/ros_ws/install/urdf_tutorial/share/urdf_tutorial/launch
+[1.042s] copying launch/camera.launch.py -> /home/youngtae/ws/ros_ws/install/urdf_tutorial/share/urdf_tutorial/launch
+[1.042s] copying launch/lidar.launch.py -> /home/youngtae/ws/ros_ws/install/urdf_tutorial/share/urdf_tutorial/launch
+[1.042s] copying launch/robot_3.launch.py -> /home/youngtae/ws/ros_ws/install/urdf_tutorial/share/urdf_tutorial/launch
+[1.043s] copying launch/robot_5.launch.py -> /home/youngtae/ws/ros_ws/install/urdf_tutorial/share/urdf_tutorial/launch
+[1.043s] copying launch/robot_1.launch.py -> /home/youngtae/ws/ros_ws/install/urdf_tutorial/share/urdf_tutorial/launch
+[1.043s] copying urdf/robot_3.xacro -> /home/youngtae/ws/ros_ws/install/urdf_tutorial/share/urdf_tutorial/urdf
+[1.043s] copying urdf/robot_5.xacro -> /home/youngtae/ws/ros_ws/install/urdf_tutorial/share/urdf_tutorial/urdf
+[1.043s] copying urdf/gazebo.xacro -> /home/youngtae/ws/ros_ws/install/urdf_tutorial/share/urdf_tutorial/urdf
+[1.043s] copying urdf/macros.xacro -> /home/youngtae/ws/ros_ws/install/urdf_tutorial/share/urdf_tutorial/urdf
+[1.043s] copying urdf/lidar.xacro -> /home/youngtae/ws/ros_ws/install/urdf_tutorial/share/urdf_tutorial/urdf
+[1.043s] copying urdf/robot_2.xacro -> /home/youngtae/ws/ros_ws/install/urdf_tutorial/share/urdf_tutorial/urdf
+[1.043s] copying urdf/robot_1.xacro -> /home/youngtae/ws/ros_ws/install/urdf_tutorial/share/urdf_tutorial/urdf
+[1.043s] copying urdf/robot_4.xacro -> /home/youngtae/ws/ros_ws/install/urdf_tutorial/share/urdf_tutorial/urdf
+[1.043s] running install_egg_info
+[1.045s] Copying ../../build/urdf_tutorial/urdf_tutorial.egg-info to /home/youngtae/ws/ros_ws/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial-0.0.0-py3.10.egg-info
+[1.045s] running install_scripts
+[1.060s] writing list of installed files to '/home/youngtae/ws/ros_ws/build/urdf_tutorial/install.log'
+[1.079s] Invoked command in '/home/youngtae/ws/ros_ws/src/urdf_tutorial' returned '0': PYTHONPATH=/home/youngtae/ws/ros_ws/build/urdf_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youngtae/ws/ros_ws/install/urdf_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/urdf_tutorial build --build-base /home/youngtae/ws/ros_ws/build/urdf_tutorial/build install --record /home/youngtae/ws/ros_ws/build/urdf_tutorial/install.log --single-version-externally-managed install_data --force

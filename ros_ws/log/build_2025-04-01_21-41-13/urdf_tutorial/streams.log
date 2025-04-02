@@ -1,0 +1,21 @@
+[0.623s] Invoking command in '/home/youngtae/ws/ros_ws/src/urdf_tutorial': PYTHONPATH=/home/youngtae/ws/ros_ws/build/urdf_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youngtae/ws/ros_ws/install/urdf_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/urdf_tutorial build --build-base /home/youngtae/ws/ros_ws/build/urdf_tutorial/build install --record /home/youngtae/ws/ros_ws/build/urdf_tutorial/install.log --single-version-externally-managed install_data
+[0.778s] running egg_info
+[0.779s] writing ../../build/urdf_tutorial/urdf_tutorial.egg-info/PKG-INFO
+[0.779s] writing dependency_links to ../../build/urdf_tutorial/urdf_tutorial.egg-info/dependency_links.txt
+[0.779s] writing entry points to ../../build/urdf_tutorial/urdf_tutorial.egg-info/entry_points.txt
+[0.779s] writing requirements to ../../build/urdf_tutorial/urdf_tutorial.egg-info/requires.txt
+[0.779s] writing top-level names to ../../build/urdf_tutorial/urdf_tutorial.egg-info/top_level.txt
+[0.780s] reading manifest file '../../build/urdf_tutorial/urdf_tutorial.egg-info/SOURCES.txt'
+[0.781s] writing manifest file '../../build/urdf_tutorial/urdf_tutorial.egg-info/SOURCES.txt'
+[0.781s] running build
+[0.782s] running build_py
+[0.782s] running install
+[0.782s] running install_lib
+[0.782s] running install_data
+[0.783s] copying urdf/lidar.xacro -> /home/youngtae/ws/ros_ws/install/urdf_tutorial/share/urdf_tutorial/urdf
+[0.783s] running install_egg_info
+[0.784s] removing '/home/youngtae/ws/ros_ws/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial-0.0.0-py3.10.egg-info' (and everything under it)
+[0.784s] Copying ../../build/urdf_tutorial/urdf_tutorial.egg-info to /home/youngtae/ws/ros_ws/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial-0.0.0-py3.10.egg-info
+[0.785s] running install_scripts
+[0.800s] writing list of installed files to '/home/youngtae/ws/ros_ws/build/urdf_tutorial/install.log'
+[0.823s] Invoked command in '/home/youngtae/ws/ros_ws/src/urdf_tutorial' returned '0': PYTHONPATH=/home/youngtae/ws/ros_ws/build/urdf_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youngtae/ws/ros_ws/install/urdf_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/urdf_tutorial build --build-base /home/youngtae/ws/ros_ws/build/urdf_tutorial/build install --record /home/youngtae/ws/ros_ws/build/urdf_tutorial/install.log --single-version-externally-managed install_data
